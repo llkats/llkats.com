@@ -1,20 +1,11 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
+   v2.0 | 20110126 | modified
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, span,
+h1, h2, h3, p, a,
+img, ul, li,
+figure, footer, header, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,34 +14,21 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+figure, footer, header, main, picture {
   display: block;
 }
 body {
   line-height: 1;
 }
-ol, ul {
+ul {
   list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 /* main styles */
 
 html { font-size: 100%; } /* Browserdefault, 16px  */
 
-main, header, footer, {
+main, header, footer {
   min-width: 100px;
 }
 
@@ -73,12 +51,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.divider {
-  margin: 50px 0;
-}
-
-figure {
-  background: url('../img/me-avatar-camera-cambodia.jpg') no-repeat -28px -29px;
+source, img {
   background-size: 200px;
   border-radius: 70px;
   -webkit-border-radius: 70px;
@@ -138,11 +111,10 @@ p {
   margin-top: 20px;
 }
 
-.subhead {
-  font-size: 0.75rem;
-  margin: 40px 0 30px;
-}
-
 ul {
   margin: 10px 0 50px;
+}
+
+.talks li {
+  margin-bottom: 1rem;
 }
