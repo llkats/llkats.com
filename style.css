@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* main styles */
+
+html { font-size: 100%; } /* Browserdefault, 16px  */
+
+main, header, footer, {
+  min-width: 100px;
+}
+
+body {
+  color: #333;
+  font-family:'Fanwood Text', 'Spinnaker', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f181ad;
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 50px 0;
+}
+
+figure {
+  background: url('../img/me-avatar-camera-cambodia.jpg') no-repeat -28px -29px;
+  background-size: 200px;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  height: 140px;
+  margin: 0 auto;
+  position: relative;
+  text-indent: -99999px;
+  width: 140px;
+}
+
+footer {
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 8.5rem; /* 28/16 = 1.75 */
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.15rem;
+  letter-spacing: 1.5px;
+  margin: 80px 0;
+}
+
+h2 span {
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  padding: 20px 30px;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+header {
+  margin-top: 100px;
+}
+
+hr {
+  border-top: 1px solid #999;
+  width: 200px;
+}
+
+li {
+  font-size: 1rem;
+  margin: 2px 0;
+}
+
+main {
+  margin-bottom: 70px;
+}
+
+p {
+  font-size: 0.875rem; /* 14/16 = 0.875 */
+  margin-top: 20px;
+}
+
+.subhead {
+  font-size: 0.75rem;
+  margin: 40px 0 30px;
+}
+
+ul {
+  margin: 10px 0 50px;
+}
